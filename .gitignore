@@ -1,0 +1,33 @@
+## Build
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.rsuser
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Local GIS data (do not publish)
+/data/**
+!/data/README.md
+/*.ovkml
+/*.kml
+/kml/
+publish/
+
+## Test output
+samples/*.out.kml
+*.nupkg

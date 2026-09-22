@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>example</name>
+    <Placemark>
+      <name>GCJ-02 point</name>
+      <OvCoordType>GCJ-02</OvCoordType>
+      <Point>
+        <coordinates>116.397428,39.90923,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>WGS84 point</name>
+      <OvCoordType>WGS84</OvCoordType>
+      <Point>
+        <coordinates>116.397428,39.90923,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

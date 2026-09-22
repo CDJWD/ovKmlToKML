@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <RootNamespace>OvkmlToKml</RootNamespace>
+    <AssemblyName>OvkmlToKml</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>CDJWD</Authors>
+    <Description>将奥维地图 OVKML 转为标准 KML（WGS84）。</Description>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>ovkml2kml</ToolCommandName>
+    <PackageId>OvkmlToKml</PackageId>
+    <PackageTags>kml;ovkml;gis;aowei;wgs84;gcj02</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/CDJWD/ovKmlToKML</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CDJWD/ovKmlToKML</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+</Project>
